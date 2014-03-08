@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="dm" parent="@style/Theme.AppCompat.Light">
+        <item name="popupMenuStyle">@style/menu</item>
+        <item name="dropDownListViewStyle">@style/dropDownListView.dm</item>
+    </style>
+
+    <!-- default background -->
+    <style name="menu" parent="android:Widget.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu</item>
+    </style>
+
+    <!-- selector for pressed/focused states -->
+    <style name="dropDownListView.dm" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/menu_selector</item>
+    </style>
+
+</resources>

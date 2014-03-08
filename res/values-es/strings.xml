@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Popup menu - danielme.com</string>
+    <string name="menu1">Menu Uno</string>
+    <string name="menu2">Menu Dos</string>
+    <string name="option1">Opción Uno</string>
+    <string name="option2">Opción Dos</string>
+    <string name="option3">Opción Tres</string>
+    <string name="option4">Opción Cuatro</string>
+    <string name="option5">Opción Cinco</string>
+
+</resources>
